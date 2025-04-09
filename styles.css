@@ -1,0 +1,31 @@
+body{
+    font-family:'Lucida sans'; 
+    background-image: linear-gradient(180deg, #498379, #b9340b);
+    background-attachment: fixed;
+}
+
+.logo{
+    text-align: center;
+    color:#3f261c;
+}
+.menu ul{
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menu a{
+    color:#cea45c;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+.menu a:hover{
+    background-color: #b9340b;
+}
+.menu li{
+    margin: 0px 10px;
+}
