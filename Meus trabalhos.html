@@ -25,5 +25,28 @@
    </nav> 
    </div>
 
+<div class="img-aberta" id = "imgAbertaBox">
+    <img src="./img_trid/Bem_te_vi_e_xananas.jpeg" alt=""id = "imgAberta">
+    <span onclick="closeImgAberta()">X</span>
+</div>
+
+<div class="galeria">
+        <img src="./img_trid/Bem_te_vi_e_xananas.jpeg" alt=""onclick="openImgAberta(this.src)">
+        <img src="./img_trid/Criatura_mitica.jpeg" alt=""onclick="openImgAberta(this.src)">
+        <img src="./img_trid/Mascara_boneca_de_porcelana.jpeg" alt=""onclick="openImgAberta(this.src)">
+        <img src="./img_trid/Rosto_de_um_homem.jpeg" alt=""onclick="openImgAberta(this.src)">
+        <img src="./img_trid/Torso_feminino.jpeg" alt=""onclick="openImgAberta(this.src)">
+</div>
+<script>
+    var imgAbertaBox = document.getElementById("imgAbertaBox");
+    var imgAberta= document.getElementById("imgAberta");
+    function openImgAberta(pic){
+        imgAbertaBox.style.display="flex";
+        imgAberta.src=pic;
+    }
+    function closeImgAberta(pic){
+        imgAbertaBox.style.display="none"
+    }
+</script>
 </body>
 </html>
